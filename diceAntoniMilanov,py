@@ -1,0 +1,9 @@
+from random import randint
+answer = input("Do you want to roll a dice?")
+stalin = True
+while stalin == True:
+  if answer == "yes":
+    print(randint(1,6))
+    answer = input("Do you want to roll a dice?")
+  elif answer == "no":
+    stalin = False

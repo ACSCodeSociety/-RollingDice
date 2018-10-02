@@ -1,0 +1,13 @@
+import random
+min = 1
+max = 6
+
+ReRoll = "yes"
+
+while ReRoll == "yes":
+    print ("Rolling the dice...")
+    print ("Your lucky numbers are....")
+    
+    print (random.randint(min, max))
+    ReRoll=input("Roll the dice again?")
+    
